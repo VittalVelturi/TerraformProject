@@ -38,7 +38,7 @@ resource "aws_security_group" "sg_t" {
         cidr_blocks = ["0.0.0.0/0"]
     }
     tags ={
-        name="sg_t"
+        Name="sg_t"
     }  
 }
 
