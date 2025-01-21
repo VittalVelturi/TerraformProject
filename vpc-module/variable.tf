@@ -23,7 +23,7 @@ variable "public_cidrblock" {
 }
 
 variable "public_az" {
-  description = "This determines the available zone of private subnet"
+  description = "This determines the available zone of public subnet"
   type = string
   default = "ap-south-1b"
 }
